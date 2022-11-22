@@ -1,3 +1,42 @@
-h1 {
-    color: red;
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    background-color: rgb(75, 79, 82);
+}
+
+header h2 {
+    padding: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+header ion-icon {
+    fill: wheat;
+    vertical-align: sub;
+    padding-right: 10px;
+}
+
+footer {
+    position: absolute;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    font-weight: bold;
+    color: yellow;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(165, 0, 0);
 }
