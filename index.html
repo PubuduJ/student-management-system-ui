@@ -28,7 +28,84 @@
             <ion-icon name="people"></ion-icon>Student Management System
         </h2>
     </header>
-    <main></main>
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <form action="#" id="form-student">
+                    <div>
+                        <button id="btn-new" class="btn btn-success" type="button">+ ADD NEW STUDENT</button>
+                    </div>
+                    <div class="form-floating mt-2">
+                        <input type="text" class="form-control" id="txt-id" placeholder="Student ID">
+                        <label for="txt-id">Student ID</label>
+                    </div>
+                    <div class="form-floating mt-4">
+                        <input type="text" class="form-control" id="txt-name" placeholder="Student Name">
+                        <label for="txt-name">Student Name</label>
+                        <div class="invalid-tooltip">
+                            Please enter a valid student name.
+                        </div>
+                    </div>
+                    <div class="form-floating mt-4">
+                        <input type="text" class="form-control" id="txt-address" placeholder="Student Address">
+                        <label for="txt-address">Student Address</label>
+                        <div class="invalid-tooltip">
+                            Please enter a valid student address.
+                        </div>
+                    </div>
+                    <div class="form-floating mt-4">
+                        <input type="text" class="form-control" id="txt-contact" placeholder="Student Contact">
+                        <label for="txt-contact">Student Contact</label>
+                        <div class="invalid-tooltip">
+                            Please enter a valid student contact.
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <button id="btn-save" class="btn btn-primary" type="submit">SAVE</button>&nbsp;
+                        <button id="btn-clear" class="btn btn-warning" type="reset">CLEAR</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-8">
+                <table id="tbl-students" class="table table-hover empty">
+                    <caption></caption>
+                    <colgroup>
+                        <col class="col-id">
+                        <col class="col-name">
+                        <col class="col-contact">
+                        <col class="col-remove">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NAME</th>
+                            <th>CONTACT</th>
+                            <th>REMOVE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S001</td>
+                            <td>Pubudu</td>
+                            <td>077-4589632</td>
+                            <td><ion-icon name="trash"></ion-icon></td>
+                        </tr>
+                        <tr>
+                            <td>S002</td>
+                            <td>Janith</td>
+                            <td>072-4596789</td>
+                            <td><ion-icon name="trash"></ion-icon></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th class="text-center" colspan="4">No records found!</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </main>
     <footer>
         <b>Student Management System</b> <span>|</span> Designed by
         <a href="https://www.linkedin.com/in/pubudujanith94/">PubuduJ</a>.

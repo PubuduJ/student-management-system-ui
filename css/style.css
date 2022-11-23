@@ -8,6 +8,8 @@ body {
     background-color: rgb(75, 79, 82);
 }
 
+/* header section */
+
 header h2 {
     padding: 16px;
     font-weight: bold;
@@ -19,6 +21,8 @@ header ion-icon {
     vertical-align: sub;
     padding-right: 10px;
 }
+
+/* footer section */
 
 footer {
     position: absolute;
