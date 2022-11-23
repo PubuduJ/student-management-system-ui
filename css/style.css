@@ -22,6 +22,17 @@ header ion-icon {
     padding-right: 10px;
 }
 
+/* body section */
+
+table th, table td {
+    color: white;
+}
+
+table tbody tr:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* footer section */
 
 footer {

@@ -30,10 +30,10 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6 col-md-5">
                 <form action="#" id="form-student">
                     <div>
-                        <button id="btn-new" class="btn btn-success" type="button">+ ADD NEW STUDENT</button>
+                        <button id="btn-new" class="btn btn-success fw-bold" type="button">+ ADD NEW STUDENT</button>
                     </div>
                     <div class="form-floating mt-2">
                         <input type="text" class="form-control" id="txt-id" placeholder="Student ID">
@@ -61,14 +61,13 @@
                         </div>
                     </div>
                     <div class="mt-2">
-                        <button id="btn-save" class="btn btn-primary" type="submit">SAVE</button>&nbsp;
-                        <button id="btn-clear" class="btn btn-warning" type="reset">CLEAR</button>
+                        <button id="btn-save" class="btn btn-primary fw-bold" type="submit">SAVE</button>&nbsp;
+                        <button id="btn-clear" class="btn btn-warning fw-bold" type="reset">CLEAR</button>
                     </div>
                 </form>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-6 col-md-7">
                 <table id="tbl-students" class="table table-hover empty">
-                    <caption></caption>
                     <colgroup>
                         <col class="col-id">
                         <col class="col-name">
@@ -88,13 +87,17 @@
                             <td>S001</td>
                             <td>Pubudu</td>
                             <td>077-4589632</td>
-                            <td><ion-icon name="trash"></ion-icon></td>
+                            <td>
+                                <ion-icon name="trash"></ion-icon>
+                            </td>
                         </tr>
                         <tr>
                             <td>S002</td>
                             <td>Janith</td>
                             <td>072-4596789</td>
-                            <td><ion-icon name="trash"></ion-icon></td>
+                            <td>
+                                <ion-icon name="trash"></ion-icon>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>
