@@ -19,5 +19,5 @@ btnNew.addEventListener("click", () => {
 });
 
 function generateNewStudentId() {
-    
+    // Implement the logic
 }
